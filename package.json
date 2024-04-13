@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=development && webpack serve",
+    "start": "set NODE_ENV=development && webpack serve",
     "build": "set NODE_ENV=production && webpack",
-    "start": "node build/server.js"
+    "dev": "node build/server.js"
   },
   "author": "",
   "license": "ISC",

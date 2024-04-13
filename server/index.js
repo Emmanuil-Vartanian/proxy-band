@@ -1,10 +1,9 @@
 const express = require("express");
 const path = require("path");
-import { createStaticHandler, StaticRouter } from "react-router-dom/server";
+import { StaticRouter } from "react-router-dom/server";
 import React from "react";
 const ReactDOMServer = require("react-dom/server");
 const fs = require("fs");
-import serialize from "serialize-javascript";
 import { Provider } from "react-redux";
 import { matchRoutes } from "react-router-dom";
 
