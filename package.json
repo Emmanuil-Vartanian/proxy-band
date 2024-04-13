@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=development && webpack serve",
-    "build": "set NODE_ENV=production && webpack && node build/server.js",
+    "build": "set NODE_ENV=production && webpack",
     "dev": "node build/server.js"
   },
   "author": "",
