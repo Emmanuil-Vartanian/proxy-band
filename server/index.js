@@ -59,7 +59,7 @@ app.use("*", (req, res) => {
 
 function renderer(req, store, context) {
   let indexHTML = fs.readFileSync(
-    path.resolve(__dirname, "../build/index.html"),
+    path.resolve(__dirname, "../build/static/index.html"),
     {
       encoding: "utf8",
     }
@@ -84,5 +84,3 @@ function renderer(req, store, context) {
 app.listen("9000", () => {
   console.log("Express server started at <http://localhost:9000>");
 });
-
-module.exports = app;

@@ -38,7 +38,7 @@ module.exports = {
     }),
 
     new HTMLWebpackPlugin({
-      filename: "index.html",
+      filename: "static/index.html",
       template: path.resolve(__dirname, "public/index.html"),
       minify: false,
     }),

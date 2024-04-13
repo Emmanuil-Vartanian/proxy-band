@@ -6,7 +6,7 @@
   "scripts": {
     "start": "set NODE_ENV=development && webpack serve",
     "build": "set NODE_ENV=production && webpack",
-    "dev": "node build/server.js"
+    "dev": "node build/index.js"
   },
   "author": "",
   "license": "ISC",
